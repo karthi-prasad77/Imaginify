@@ -74,7 +74,7 @@ export async function deleteUser(clerkId: string) {
 }
 
 // USE CREDITS
-/*export async function updateCredits(userId: string, creditFee: number) {
+export async function updateCredits(userId: string, creditFee: number) {
   try {
     await connectToDatabase();
 
@@ -90,4 +90,4 @@ export async function deleteUser(clerkId: string) {
   } catch (error) {
     handleError(error);
   }
-}*/
+}
